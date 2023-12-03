@@ -23,9 +23,6 @@ with open('input.txt') as f:
         reds = []
         blues = []
         greens = []
-        max_red = 0
-        max_green = 0
-        max_blue = 0
         x = replace(line).split(',')
 
 #finner alle av hver farge
